@@ -1,0 +1,44 @@
+.nav_list{
+  height: 4rem;
+  margin: 0;
+}
+.nav_menu{
+  box-shadow: 0 -1px 6px rgba(0,0,0,.2);
+  border-radius: 20px 20px 0 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.text_smaller{
+  font-size: .6rem;
+}
+.nav_icon{
+  font-size: 1.5rem;
+}
+img{
+  width: 100%;
+  height: auto
+}
+.nav_img{
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  border-radius: 50% !important;
+}
+@media (min-width: 992px){
+  .nav_menu{
+    position: static;
+    width: auto;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  .nav_icon{
+    display: none;
+  }
+  .text_smaller{
+    font-size: 1.1rem;
+  }
+  .navbar{
+    box-shadow: 0 0 6px rgba(0,0,0,.2);
+  }
+}
